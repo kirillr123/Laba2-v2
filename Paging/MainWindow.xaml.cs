@@ -78,8 +78,7 @@ namespace GridPagingExample
             if (result == true)
             {
                 // Save document
-                string filename = dlg.FileName;
-                File.Copy(Directory.GetCurrentDirectory() + "\\temp.xlsx", filename);
+                File.Copy(Directory.GetCurrentDirectory() + "\\temp.xlsx", dlg.FileName,true);
 
             }
 

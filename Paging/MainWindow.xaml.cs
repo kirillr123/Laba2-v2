@@ -72,7 +72,7 @@ namespace GridPagingExample
             dlg.Filter = "Excel documents (.xlsx)|*.xlsx"; // Filter files by extension
 
             // Show save file dialog box
-            Nullable<bool> result = dlg.ShowDialog();
+            Nullable<bool> result = dlg.ShowDialog();  
 
             // Process save file dialog box results
             if (result == true)
